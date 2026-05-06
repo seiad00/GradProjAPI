@@ -1,0 +1,6 @@
+@Unity2D_HostAddress = http://localhost:5098
+
+GET {{Unity2D_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
