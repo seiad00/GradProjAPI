@@ -42,5 +42,5 @@ jobs:
             --name game-server-container \
             -p 8080:8080 \
             -e ConnectionStrings__DefaultConnection="${{ secrets.DB_CONNECTION }}" \
-	    -e Jwt__Key="${{ secrets.JWT_SECRET_KEY }}" \
+            -e Jwt__Key="${{ secrets.JWT_SECRET_KEY }}" \
             game-server
